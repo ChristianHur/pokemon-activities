@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>METCS701 Term Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/newCatch.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+
+</head>
+
+<body>
+
+<header>
+    <a href="index.html"><img id="logo" src="bg/poke_2Dlogo.gif" alt="Pokemon Logo"></a>
+    <a href="index.html"><img id="logo-pokeball" src="bg/Pokeball.png" alt="Pokeball Logo"></a>
+    <h1>Pokemon Activities</h1>
+</header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="newcatch.html">New Catch</a></li>
+            <li><a href="catchem.html">Catch'em All</a></li>
+
+        </ul>
+    </nav>
+    <div id="main-container">
+    <main id="new-upload">
+
+
+        <script>
+
+
+        </script>
+
+
+        <div id="drop">
+            <div id="drop-status">
+                <form name="pokemap" id="pokemap">
+                <table>
+                    <tr>
+                        <td>Pokemon Name:</td>
+                        <td><input id="drop-title" onblur="updateTitle()"></td>
+                        <td rowspan="4">
+                            <div id="list"></div>
+                        </td>
+                        <td rowspan="2">
+                            <button onclick="save()">SAVE</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date Captured:</td>
+                        <td><input id="drop-date" type="text" onkeyup="updateDate()"></td>
+                    </tr>
+                    <tr>
+                        <td>Latitude:</td>
+                        <td><input type="number" step="0.05" id="drop-latitude" onkeyup="updateMarker()"
+                                   onchange="updateMarker()"></td>
+                        <td rowspan="2">
+                            <button onclick="location.reload()">CANCEL</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Longitude:</td>
+                        <td><input type="number" step="0.05" id="drop-longitude" onkeyup="updateMarker()"
+                                   onchange="updateMarker()"></td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+
+            <div id="map-area">
+                <h2 id="status">Drag a file from a local folder to the map below.</h2>
+                <div id="map"></div>
+            </div>
+            <br class="clear">
+        </div>
+
+    </main>
+
+    <footer>&#169;2016 Christian Hur. All rights reserved.</footer>
+
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBp4Lu6kn0SXNpLJh0FBcrZNnuQ6YoxP8&callback=getLocation"
+        async defer></script>
+
+</body>
+
+</html>

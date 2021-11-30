@@ -1,0 +1,392 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    padding: 0px;
+    background-color: #000;
+    background-image: url("../bg/pokemonbg.jpg");
+    background-size: 100%;
+}
+
+#main-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+header {
+    background-color: #F47D31;
+    color: #fff;
+    font-family: "Palatino Linotype", Georgia, serif;
+    height: 5em;
+    border-bottom: 1px solid #000000;
+}
+
+#logo {
+    float: left;
+    width: 12%;
+    margin-left: 10%;
+}
+
+#logo-pokeball {
+    float: right;
+    width: 6%;
+    margin-right: 10%;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+header h1 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 4em;
+    text-shadow: 2px 2px #040404;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav li {
+    width: 100px;
+    display: inline;
+}
+
+nav a:link {
+    color: #000;
+}
+
+nav a:hover {
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+
+nav a:visited {
+    color: #000;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #FCB362;
+    border: 1px solid black;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+section {
+    padding: 10px;
+    width: 100%;
+}
+
+blockquote {
+    width: 500px;
+    padding-top: 10px;
+}
+
+img {
+    border: none;
+}
+
+/** FORM **/
+form {
+    background-color: #FCB362;
+    border: 1px solid #79815c;
+    border-radius: 7px;
+    margin: 10px;
+    font-family: "Lucida Sans", Tahomo, Verdana, Arial, sans serif;
+    font-size: .9em;
+}
+
+fieldset {
+    margin: 20px;
+    border-radius: 7px;
+    border: 1px solid grey;
+}
+
+legend {
+    margin-bottom: 5px;
+    font-family: "Palatino Linotype", Georgia, serif;
+    font-weight: bold;
+}
+
+#contact-info label {
+    float: left;
+    width: 100px;
+    margin-left: 10px;
+}
+
+input {
+    display: block;
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    height: 25px;
+}
+
+input:focus {
+    background-color: yellow;
+    font-weight: bold;
+    color: #FF4500
+}
+
+input:hover {
+    background-color: #fbfcfc;
+}
+
+form p {
+    font-size: .8em;
+}
+
+.radio, .checkbox {
+    display: inline;
+    width: 30px;
+}
+
+.formButtonSection {
+    text-align: center;
+    padding: 10px;
+}
+
+.formButton {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: "Palatino Linotype", Georgia, serif;
+    width: 100px;
+    margin-bottom: 5px;
+    display: inline
+}
+
+footer {
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.wrappedElement {
+    border: 1px solid grey;
+}
+
+.social-icons {
+    float: right;
+}
+
+.ui-widget-header {
+    border: 1px solid #aaaaaa;
+    background: #fcb362 !important;
+}
+
+#main-bg {
+    /*background-image: url("../images/main-bg.jpg");*/
+    background-color: #fff;
+    color: white;
+}
+
+#drop {
+    min-height: 150px;
+    width: 90%;
+    /*    border: 1px solid blue;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    /* float: left; */
+}
+
+#drop-status {
+    display: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    background: #fbfcfc;
+    padding: 5px;
+    border: 1px solid #e3e3e3;
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    background-color: #e3e3e3;
+    border-radius: 6px;
+}
+
+td {
+    width: 130px;
+    text-align: left;
+    padding: 5px;
+}
+
+td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+td:last-child {
+    border: none;
+}
+
+#new-upload #status {
+    text-align: center;
+}
+
+#main-map{
+    margin: 5px;
+    height: 35em;
+    border: 1px solid #e3e3e3;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+}
+
+
+#map {
+    margin: 5px;
+    height: 25em;
+    border: 1px solid #e3e3e3;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+}
+
+#list {
+    clear: left;
+}
+
+.gg {
+    width: 100px;
+}
+
+.dragged {
+    opacity: 0.5;
+    color: red;
+    background-color: #bfbf00;
+
+}
+
+#new-image {
+    width: 100px;
+}
+
+#marker-text {
+    width: 220px;
+    word-wrap: break-word;
+}
+
+.marker-heading {
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+button {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    background: #FCB362;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #fbfcfc;
+}
+
+.pokemon-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pokemon-label {
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    width: 35px;
+    margin-right: 5px;
+}
+
+#newPokemon {
+    width: 115px;
+}
+
+#hint {
+    font-style: italic;
+    text-align: center;
+}
+
+#score {
+    border: 1px solid black;
+    background-color: #fff;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 88px;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -70px;
+}
+
+@media screen and (max-width: 1024px) {
+    header h1 {
+        font-size: 300%;
+    }
+    #logo {
+        width: 15%;
+        margin-left: 10%;
+    }
+
+    #logo-pokeball {
+        width: 6%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 200%;
+    }
+    #logo {
+        width: 20%;
+        margin-left: 5%;
+    }
+
+    #logo-pokeball {
+        width: 10%;
+        margin-right: 5%;
+    }
+}

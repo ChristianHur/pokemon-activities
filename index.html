@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>METCS701 Term Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/pokemonTrack.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+
+    <script>
+        $(document).ready(function () {
+           $("body").css("display", "none");
+           $("body").fadeIn(500);
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img id="logo" src="bg/poke_2Dlogo.gif" alt="Pokemon Logo"></a>
+        <a href="index.html"><img id="logo-pokeball" src="bg/Pokeball.png" alt="Pokeball Logo"></a>
+        <h1>Pokemon Activities</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="newcatch.html">New Catch</a></li>
+            <li><a href="catchem.html">Catch'em All</a></li>
+
+
+        </ul>
+    </nav>
+    <div id="main-container">
+        <main>
+
+            <div id="main-map"></div>
+
+        </main>
+
+        <footer>&#169;2016 Christian Hur. All rights reserved.</footer>
+
+    </div>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBp4Lu6kn0SXNpLJh0FBcrZNnuQ6YoxP8&callback=getLocation"></script>
+
+
+</body>
+
+</html>

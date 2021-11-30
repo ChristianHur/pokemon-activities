@@ -1,0 +1,85 @@
+//JSON Data - initialization
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Pikachu",
+      "lat": "42.71234",
+      "lng": "-90.12209",
+      "photo": "images/pikachu.png",
+      "date": "7/11/2016"
+    },
+    {
+      "id": 2,
+      "name": "Bulbasaur",
+      "lat": "42.44112",
+      "lng": "-89.33431",
+      "photo": "images/bulbasaur.png",
+      "date": "8/15/2016"
+    },
+    {
+      "id": 3,
+      "name": "Charmander",
+      "lat": "42.84331",
+      "lng": "-108.01023",
+      "photo": "images/charmander.png",
+      "date": "6/5/2016"
+    },
+    {
+      "id": 4,
+      "name": "Jigglypuff",
+      "lat": "41.44571",
+      "lng": "-79.44332",
+      "photo": "images/jigglypuff.png",
+      "date": "7/21/2016"
+    },
+    {
+      "id": 5,
+      "name": "Pidgeot",
+      "lat": "46.24225",
+      "lng": "-119.49948",
+      "photo": "images/pidgeot.png",
+      "date": "8/12/2016"
+    },
+    {
+      "id": 6,
+      "name": "Squirtle",
+      "lat": "50.14566",
+      "lng": "-97.12124",
+      "photo": "images/squirtle.png",
+      "date": "8/8/2016"
+    },
+    {
+      "id": 7,
+      "name": "Caterpie",
+      "lat": "36.25889",
+      "lng": "-80.00121",
+      "photo": "images/caterpie.png",
+      "date": "7/12/2016"
+    },
+    {
+      "id": 8,
+      "name": "Metapod",
+      "lat": "46.71193",
+      "lng": "5.65084",
+      "photo": "images/metapod.png",
+      "date": "7/17/2016"
+    },
+    {
+      "id": 9,
+      "name": "Gyarados",
+      "lat": "20.84127",
+      "lng": "-68.88041",
+      "photo": "images/gyarados.png",
+      "date": "8/12/2016"
+    },
+    {
+      "id": 10,
+      "name": "Ekans",
+      "lat": "22.47491",
+      "lng": "21.47115",
+      "photo": "images/ekans.png",
+      "date": "8/9/2016"
+    }
+  ]
+}
